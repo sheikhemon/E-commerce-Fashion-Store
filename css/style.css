@@ -63,7 +63,9 @@ header h1 {
 }
 
 .btn-danger {
-  background-color: rgb(211, 230, 207) !important;
+  background-color: rgb(255, 255, 255) !important;
+  padding: 7px 20px !important;
+  font-weight: 600 !important;
   color: rgb(0, 0, 0) !important;
   outline: none !important;
   border: 1px solid #222 !important;
@@ -71,6 +73,8 @@ header h1 {
 
 .btn-success {
   background-color: black !important;
+  padding: 7px 20px !important;
+  font-weight: 600 !important;
   outline: none !important;
   border: 1px solid #222 !important;
 }
@@ -104,7 +108,7 @@ header h1 {
 }
 
 .single-product:hover {
-  background-color: rgb(19, 71, 150);
+  background-color: rgba(19, 71, 150, 0.753);
   color: #ffff;
   box-shadow: 4px 4px 7px gray;
   border-radius: 10px;
@@ -124,7 +128,7 @@ h3#product-title {
 
 .cart {
   width: 350px;
-  background-color: rgb(19, 71, 150);
+  background-color: rgba(19, 71, 150, 0.753);
   color: #ffff;
   padding: 10px 20px;
   border-radius: 5px;
