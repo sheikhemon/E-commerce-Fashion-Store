@@ -1,8 +1,8 @@
-/*--------------
- products api call here 
- ---------------*/
+/*---------------------------
+    products api call here 
+ ----------------------------*/
 const loadProducts = () => {
-  const url = `https://fakestoreapi.com/products`;
+  const url = `../js/data.json`;
   fetch(url)
     .then((response) => response.json())
     .then((data) => showProducts(data));
